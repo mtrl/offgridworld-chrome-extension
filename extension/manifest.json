@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "OffGridWorld.com one page articles",
+  "description": "This extension renders multi-page articles on offgridworld.com onto one page",
+  "version": "1.0.1",
+
+  "permissions": [
+    "http://www.offgridworld.com/"
+  ],
+  "content_scripts": [ {
+    "js": [ "jquery-1.11.1.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
