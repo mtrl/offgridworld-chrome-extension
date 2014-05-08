@@ -1,5 +1,10 @@
 body {
     font-family: 'Droid Sans', sans-serif;
-    min-width: 500px;
+    min-width: 400px;
     margin: 10px;
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 1.4em;
 }
