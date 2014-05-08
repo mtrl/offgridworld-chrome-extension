@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "OffGridWorld.com one page articles",
   "description": "This extension renders multi-page articles on offgridworld.com onto one page",
-  "version": "1.0.1",
+  "version": "1.1.0",
 
   "permissions": [
     "http://www.offgridworld.com/"
